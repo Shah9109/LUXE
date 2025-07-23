@@ -1,5 +1,5 @@
 # Dependencies
-node_modules/
+**/node_modules/
 /.pnp
 .pnp.js
 
@@ -7,9 +7,10 @@ node_modules/
 /coverage
 
 # Next.js
-.next/
+**/.next/
 /out/
 /build
+**/.swc/
 
 # Production
 /build
@@ -40,4 +41,7 @@ yarn-error.log*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.db 
+Thumbs.db
+
+# Large binary files
+*.node 
